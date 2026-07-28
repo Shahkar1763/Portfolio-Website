@@ -1,0 +1,280 @@
+* {
+    margin:0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+     color: white;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly; 
+     /* justify-content: space-between; */
+}
+
+.nav_logo {
+    height:50px;
+    width:100px;
+}
+.logo {
+    background-image: url("images.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border {
+     border: 1.5px solid transparent;
+}
+.border :hover {
+    border: 1.5px solid white;
+}
+
+/**  box2  **/
+.add-first{
+  color:#cccccc;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.add-second{
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 2px;
+}
+
+.add-icon {
+    display: flex;
+     align-items: center;
+
+}
+
+/** box3 **/
+
+.nav-search{
+    display: flex;
+    height: 40px;
+    width:600px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange
+}
+
+.search-select {
+      font-size: 14px;
+      width: 45px;
+      text-align: center;
+      border-radius:4px 0px 0px 4px;
+      border:none;
+}
+.search-input {
+    width: 500px;
+    padding: 10px 5px 10px 2px;
+    font-size:1rem ;
+    border:none;
+}
+.search-icon {
+    background-color:#febd68;
+    width: 45px;
+    /* padding: 10px 2px 3px 6px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 0px 4px 4px 0px;
+    color: #0f1111
+}
+
+/** box4 **/
+span {
+    font-size: 12px;
+}
+.nav-second{
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+}
+.panel-text p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-text{
+    width: 75%;
+    font-size: 14px;
+
+}
+.panel-deals{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.hero-section{
+    background-image:url("hero.jpg") ;
+    background-size: cover;
+    height: 300px;
+}
+
+
+/** shop-Section **/
+
+.shop-section{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+}
+
+.box{
+    height:350px;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+  
+}
+.box-img{
+    background-image: url("box1.jpg");
+    background-size: cover;
+    height:250px;
+}
+.box-container{
+    margin-left: 10px;
+    margin-right:10px;
+}
+h2{
+    padding-bottom: 10px;
+}
+.box-container p{
+    padding-top:15px ;
+    color:#2162a1;
+}
+.box-img2{
+      background-image: url("box2.jpg");
+    background-size: cover;
+    height:250px;
+}
+.box-img3{
+    background-image: url("box3.jpg");
+    background-size: cover;
+    height:250px;
+}
+.box-img4{
+        background-image: url("box4.jpg");
+    background-size: cover;
+    height:270px;
+}
+.box-img5{
+     background-image: url("box5.jpg");
+    background-size: cover;
+    height:270px;
+}
+.box-img6{
+     background-image: url("box6.jpg");
+    background-size: cover;
+    height:270px;
+}
+.box-img7{
+     background-image: url("box7.jpg");
+    background-size: cover;
+    height:270px;
+}
+.box-img8{
+     background-image: url("box8.jpg");
+    background-size: cover;
+    height:250px;
+}
+
+/**    footer    **/
+.foot-panel1{
+
+    height:50px;
+    background-color: #37475a;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px;
+
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    height: 300px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+.foot-panel2 a{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    color:#dddddd;
+}
+
+/* .foot-panel3{
+background-color: #0f1111;
+height:70px ;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top: 1px solid white;
+}
+.logo{
+    background-image: url("images.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+} */
+
+.foot-panel3{
+    background-color: #0f1111;
+height:70px ;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top: 1px solid white;
+color:white;
+}
+.foot-panel3 a{
+    font-size: 12px;
+    padding-left: 7px;
+    color:#dddddd;
+}
+.com a{
+    padding-left: 130px;
+    font-size: 12px;
+    color:#dddddd;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
